@@ -1,0 +1,22 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <define name="AllGroups">
+  <include name="Smokegrp"></include>
+  <exclude name="FT"></exclude>
+  <include name="IT"></include>
+  <exclude name="System"></exclude>
+  </define>
+  <run>
+  <include name="AllGroups"></include>
+  <include name="SmokeGrp"></include>
+  
+  </run>>
+  </groups>>
+  
+    <classes>
+      <class name="TestNG.GroupingInTestNG"/>
+    </classes>
+  </test>
+</suite>

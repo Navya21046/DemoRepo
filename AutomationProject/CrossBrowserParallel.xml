@@ -1,0 +1,17 @@
+<suite name="Suite" parallel="tests">
+
+  <test  name="ChromeRunnertest">
+   <parameter name="browser" value="chrome"></parameter>
+  <classes>
+          <class name="TestNG.CrossBrowserParallel" />
+  </classes>
+  </test> 
+  
+  <test  name="FirefoxRunnertest">
+   <parameter name="browser" value="firefox"></parameter>
+  <classes>
+         <class name="TestNG.CrossBrowserParallel" />
+  </classes>
+  </test> 
+  
+</suite>
